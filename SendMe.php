@@ -2,8 +2,6 @@
 
 include __DIR__."/config.php";
 include __DIR__."/src/Request.php";
-include __DIR__."/src/Response.php";
-include __DIR__."/src/Validate.php";
 
 class SendMe extends Request{	
 	private $environment = "development";
