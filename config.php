@@ -8,19 +8,19 @@
 $param["development"]["virtual_account"] 	= "";
 $param["development"]["faspay_key"] 		= "";
 $param["development"]["faspay_secret"] 		= "";
-$param["development"]["app_key"] 			= "";
+$param["development"]["app_key"]			= "";
 $param["development"]["app_secret"] 		= "";
 $param["development"]["client_key"] 		= "";
 $param["development"]["client_secret"] 		= "";
-$param["development"]["iv"] 				= "";
+$param["development"]["iv"]					= "";
 
 $param["production"]["virtual_account"] 	= "";
-$param["production"]["faspay_key"] 			= "";
+$param["production"]["faspay_key"]			= "";
 $param["production"]["faspay_secret"] 		= "";
-$param["production"]["app_key"] 			= "";
-$param["production"]["app_secret"] 			= "";
-$param["production"]["client_key"] 			= "";
+$param["production"]["app_key"]				= "";
+$param["production"]["app_secret"]			= "";
+$param["production"]["client_key"]			= "";
 $param["production"]["client_secret"] 		= "";
-$param["production"]["iv"] 					= "";
+$param["production"]["iv"]					= "";
 
 return $param; 
