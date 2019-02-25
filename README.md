@@ -1,6 +1,6 @@
 ## Welcome To Faspay SendMe
 
-This package provides Faspay SendMe 1.0 support for the PHP Language.
+This package provides [Faspay SendMe](https://faspay.co.id/docs/index-en-sendme.html#faspay-sendme) 1.0 support for the PHP Language.
 
 ## Requirements
 
@@ -21,8 +21,6 @@ To use this package, it will be necessary to have a credential. These are referr
 in the config.php by your email from faspay.
 
 Please contact Administrator Faspay to create the required credentials.
-
-[Documentation]: (https://faspay.co.id/docs/index-en-sendme.html#faspay-sendme)
 
 ## Installation
 
