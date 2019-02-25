@@ -1,6 +1,6 @@
 ## Welcome To Faspay SendMe
 
-This package provides [Faspay SendMe](https://faspay.co.id/docs/index-en-sendme.html#faspay-sendme) 1.0 support for the PHP Language.
+This package provides Faspay SendMe 1.0 support for the PHP Language.
 
 ## Requirements
 
@@ -64,7 +64,7 @@ include __DIR__.'/sendme/SendMe.php';
 $sendme = new SendMe();	
 $mutasi = $sendme->mutasi(["start_date" => "2019-02-01", "end_date" => "2019-02-18"]);
 ```
-the parameter refer to Faspay SendMe Docs.
+the parameter refer to Faspay SendMe [Documentation](https://faspay.co.id/docs/index-en-sendme.html#faspay-sendme).
 
 ### Environment Production
 To use environment production must be call this method like as :
