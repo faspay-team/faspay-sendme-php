@@ -78,7 +78,7 @@ $sendme->enableProd();
 
 #### Available Methods
 
-The `Faspay SendMe` provider has the following [method]:
+The `Faspay SendMe` provide has the following [method]:
 
 - 'register()' to use register your customer bank account
 - 'confirm()' to use confirm your customer bank account after register method
