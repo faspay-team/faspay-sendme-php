@@ -9,7 +9,7 @@ class Http{
 	
 	protected $host = [
 		"development" => "https://dev2.faspay.co.id",
-		"production" => "https://web.faspay.co.id"
+		"production" => "https://sendme.faspay.co.id"
 	];
 	
 	protected $path = [
