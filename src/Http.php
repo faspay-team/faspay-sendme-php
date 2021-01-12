@@ -8,7 +8,7 @@ class Http{
 	private $headAuth 	= "faspay-authorization";
 	
 	protected $host = [
-		"development" => "https://dev2.faspay.co.id",
+		"development" => "https://sendme-sandbox.faspay.co.id",
 		"production" => "https://sendme.faspay.co.id"
 	];
 	
@@ -72,6 +72,10 @@ class Http{
 		if(!isset($data["virtual_account"])){
 			$this->virtual_account = $config[$this->getEnvironment()]["virtual_account"];
 			$data = array_merge(array("virtual_account" => $this->virtual_account), $data);
+		}
+		
+		if(isset($config[$this->getEnvironment()]["host"]) && $config[$this->getEnvironment()]["host"]){
+			$this->host[$this->getEnvironment()] = $config[$this->getEnvironment()]["host"];
 		}
 		
 		$this->reqd = $this->info["request"]["array"] = $data;

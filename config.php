@@ -5,6 +5,7 @@
 */
 
 
+$param["development"]["host"] 				= "https://sendme-sandbox.faspay.co.id";
 $param["development"]["virtual_account"] 	= "";
 $param["development"]["faspay_key"] 		= "";
 $param["development"]["faspay_secret"] 		= "";
@@ -14,6 +15,7 @@ $param["development"]["client_key"] 		= "";
 $param["development"]["client_secret"] 		= "";
 $param["development"]["iv"]					= "";
 
+$param["production"]["host"] 				= "https://sendme.faspay.co.id";
 $param["production"]["virtual_account"] 	= "";
 $param["production"]["faspay_key"]			= "";
 $param["production"]["faspay_secret"] 		= "";
