@@ -41,8 +41,6 @@ class Request extends Http{
 					return $rspd["access_token"];
 				}
 			}
-			
-			die(print_r($rspd, true));
 		}
 		
 		return false;
