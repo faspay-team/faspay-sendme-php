@@ -1,4 +1,4 @@
-[![N|Solid](https://faspay.co.id/docs/sendme/images/sendMe-new.png)](https://faspay.co.id/docs/index-sendme.html#faspay-sendme) 
+[![N|Solid](https://faspay.co.id/docs/sendme/images/sendMe-new.png)](https://docs.faspay.co.id/getting-started/faspay-sendme) 
 ## Welcome To Faspay SendMe
 
 This package provides Faspay SendMe v1.0.0 support for the PHP Language.
@@ -65,7 +65,7 @@ include __DIR__.'/sendme/SendMe.php';
 $sendme = new SendMe();	
 $mutasi = $sendme->mutasi(["start_date" => "2019-02-01", "end_date" => "2019-02-18"]);
 ```
-the parameter refer to Faspay SendMe [Documentation](https://faspay.co.id/docs/index-en-sendme.html#faspay-sendme).
+the parameter refer to Faspay SendMe [Documentation](https://docs.faspay.co.id/getting-started/faspay-sendme).
 
 ### Environment Production
 To use environment production must be call this method like as :
