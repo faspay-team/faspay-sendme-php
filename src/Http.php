@@ -158,13 +158,15 @@ class Http{
 		$ch = curl_init();
 		curl_setopt($ch, CURLOPT_URL, $this->url);
 		curl_setopt($ch, CURLOPT_HTTPHEADER, $header);
-		curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 		curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
 		curl_setopt($ch, CURLOPT_HEADER, false);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 		curl_setopt($ch, CURLOPT_AUTOREFERER, true);
 		curl_setopt($ch, CURLOPT_USERAGENT, (isset($_SERVER["HTTP_USER_AGENT"]) ? $_SERVER["HTTP_USER_AGENT"] : ""));
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+		curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, true);
+		curl_setopt($ch, CURLOPT_CAINFO, __DIR__."/../faspay.crt");
 		
 		if ($this->current_method == "POST"){	
 			curl_setopt($ch, CURLOPT_POST, true);
